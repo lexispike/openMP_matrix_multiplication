@@ -1,0 +1,24 @@
+Alyxandra Spikerman
+Written for a course at Northeastern University: High Performance Computing
+
+Q4.cpp
+
+
+The program multiples a 1000x1000 matrix of integers with a 1000x1 vector of integers to get a resulting 1000x1 vector of integers. It uses OpenMP parallel fors and OpenMP built-in reduction. It also prints the number of processors and threads available on the system (I used the COE systems) and the unique thread id for each thread. Then, it prints the resulting vector.
+
+
+--HOW TO COMPILE--
+g++ -fopenmp Q4.cpp -o Q4
+
+OR
+
+make Q4
+
+--HOW TO RUN--
+
+make run_Q4
+
+OR
+
+./Q4
+
